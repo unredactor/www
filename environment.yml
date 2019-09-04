@@ -1,0 +1,16 @@
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  - flask
+  - spacy
+  - keras
+  - jupyter
+  - scikit-learn
+  - pandas
+
+  - pip:
+    - flask_wtf
+    - tqdm
